@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const logo = require('asciiart-logo');
 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3006;
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
